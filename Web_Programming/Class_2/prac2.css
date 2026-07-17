@@ -1,0 +1,174 @@
+.frame{
+    display: flex;
+    height: 100vh;
+}
+
+.left-div{
+    width: 15%;
+    background-color: rgb(51, 52, 69);
+    height: 100%;
+    color: azure;
+}
+
+.right-div{
+    width: 85%;
+    background-color: aliceblue;
+}
+
+.fp{
+    background-color: blueviolet;
+    width: 27px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.fit-plus{
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.top-title{
+    display: flex;
+    margin-top:7px ;
+    margin-left: 9px;
+}
+
+.mid-left{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.mark-mid{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding-left: 10px;
+    width: 98%;
+    margin-bottom: 5px;
+}
+
+.left-bottom-txt{
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.left-bottom{
+    margin-top: 270px;
+}
+
+.mid-block-top-txt{
+    font-weight: bold;
+}
+
+.top-bar-right{
+    display:flex;
+    padding: 10px;
+}
+
+.jd{
+    background-color: blueviolet;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.make-div-right{
+    display: flex;
+    margin-left: 550px;
+}
+
+.top-head{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.col{
+    width: 38%;
+}
+
+.whole-mid{
+    margin-left: 10px;
+    display: flex;
+}
+
+.box1{
+    background-color: burlywood;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.time .instructor{
+    font-size: smaller;
+}
+
+.boxes{
+    display: flex;
+}
+
+.addtocart{
+    margin-top: 5px;
+    background-color: chocolate;
+    text-align: center;
+    border-radius: 5px;
+    font-size: smaller;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.cost{
+    background-color: aquamarine;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.summery{
+    background-color: aqua;
+    width: 20%;
+    padding:20px;
+    border-radius: 7px;
+}
+
+.one-p{
+    display: flex;
+}
+
+.name-time{
+    margin-right: 30px;
+}
+
+.price{
+    margin-top: 7px;
+}
+
+.bottom-left{
+    display: flex;
+}
+
+.right-margin-30{
+    margin-right: 30px;
+}
+
+.refund{
+    text-align: center;
+    font-size: xx-small;
+}
+
+.confirmation{
+    background-color: chartreuse;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.todays{
+    margin-left: 20px;
+}
