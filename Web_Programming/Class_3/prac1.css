@@ -1,0 +1,15 @@
+.stat{
+    background-color: blue;
+    width: 25%;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px -3px rgb(11, 213, 0);
+    /* x y blur color */
+    /* -x -y blur color */
+    border: 2px solid rgb(1, 0, 0);
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+}

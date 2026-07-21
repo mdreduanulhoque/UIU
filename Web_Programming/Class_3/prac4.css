@@ -1,0 +1,70 @@
+.main{
+    height: 100vh;
+    color: aliceblue;
+}
+
+.full{
+    border: 3px solid rgb(112, 112, 106);
+    
+}
+
+.header{
+    background-color: blue;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.mid{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    text-align: center;
+    align-items: center;
+}
+
+.lower{
+    height:10vh;
+    background-color: rgb(105, 105, 255);
+    display: flex;
+    align-items: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 140px 40px 100px;
+    gap: 2px;
+}
+
+.item{
+    background-color: rgb(171, 93, 93);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+}
+
+.main-content{
+    grid-column: span 2;
+    background-color: rgb(86, 209, 77);
+}
+
+.sidebar{
+    background-color: rgb(168, 107, 224);
+}
+
+.twin2{
+    grid-column: span 2;
+    background-color: orange;
+}
+
+.twin{
+    background-color: orange;
+}
+
+.padding-3px{
+    margin-left: 5px;
+}

@@ -1,0 +1,60 @@
+.item{
+    background-color: rgb(51, 255, 0);
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    /* column-gap: 10px;
+    row-gap: 15px; */
+    gap: 3px;
+    padding: 3px;
+}
+
+.span-1{
+    grid-column: span 2;
+}
+
+.span-3{
+    grid-row: span 2;
+}
+
+.span-4{
+    grid-column: span 2;
+}
+
+.color1{
+    background-color: rgb(84, 221, 141);
+}
+
+.color2{
+    background-color: rgb(252, 216, 163);
+}
+
+.color3{
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.color4{
+    background-color: rgb(179, 130, 225);
+}
+
+.color5{
+    background-color: aquamarine;
+}
+
+.color6{
+    background-color: rgb(255, 132, 0);
+}
