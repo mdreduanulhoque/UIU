@@ -1,0 +1,134 @@
+.full-screen{
+    width: 100%;
+    height: 100vh;
+}
+
+.top{
+    background-color: rgb(7, 7, 80);
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: antiquewhite;
+    justify-items: center;
+    padding:20px
+}
+
+.bottom{
+    background-color:rgb(233, 231, 230);
+    height: 93%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.account{
+    display: flex;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 80px;
+    text-align: center;
+    justify-items: center;
+}
+
+.left{
+    width: 70%;
+    margin-left: 20px;
+}
+
+.right{
+    width: 30%;
+}
+
+.left-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxx{
+    width: 20%;
+    padding: 20px;
+    box-shadow: -2px 0px 0px blue;
+}
+
+.left-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    padding: 10px;
+}
+
+.grid-item{
+    width: 100%;
+}
+
+.left-bottom{
+    background-color: rgb(246, 246, 246);
+    border-radius: 9px;
+}
+
+.button{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.last-item{
+    text-align: center;
+}
+
+.course-completion{
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    margin-left: 40px;
+}
+
+.progress-bar{
+    height: 8px;
+    border-radius: 5px;
+    background-color: gray;
+    width: 100%;
+    display: flex;
+}
+
+.complete-bar-dsa{
+    width:70%;
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+.complete-bar-ml{
+    width: 35%;
+    background-color: rgb(255, 144, 8);
+    border-radius: 5px;
+}
+
+.complete-bar-dbms{
+    width: 90%;
+    background-color: rgb(7, 242, 10);
+    border-radius: 5px;
+}
+
+.complete-bar-micro{
+    width: 10%;
+    background-color: rgb(242, 7, 31);
+    border-radius: 5px;
+}
+
+.inv-course{
+    padding:5px;
+}
+
+.right-bottom{
+    background-color: white;
+    width: 100%;
+}
+
+.right-bottom-items{
+    background-color: rgb(242, 240, 237);
+    padding: 5px;
+}

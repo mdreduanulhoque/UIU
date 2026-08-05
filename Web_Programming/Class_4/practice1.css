@@ -1,0 +1,114 @@
+.full-page{
+    display: flex;
+}
+
+.left{
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(29, 29, 142);
+}
+
+.right{
+    width:80%;
+}
+
+.navbar{
+    height: 10%;
+    background-color:azure ;
+}
+
+.content{
+    height: 90%;
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat{
+    width: 28%;
+    background-color: rgb(250, 250, 250);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px -3px 0px blue;
+}
+
+.course-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-completion{
+    width: 38%;
+    background-color: white;
+    padding: 15px;
+}
+
+.upcomming-deadline{
+    width: 57%;
+    background-color: white;
+}
+
+.course-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar{
+    height: 8px;
+    border-radius: 5px;
+    background-color: gray;
+    width: 100%;
+    display: flex;
+}
+
+.complete-bar-dsa{
+    width:70%;
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+.complete-bar-ml{
+    width: 35%;
+    background-color: rgb(255, 144, 8);
+    border-radius: 5px;
+}
+
+.complete-bar-dbms{
+    width: 90%;
+    background-color: rgb(7, 242, 10);
+    border-radius: 5px;
+}
+
+.complete-bar-micro{
+    width: 10%;
+    background-color: rgb(242, 7, 31);
+    border-radius: 5px;
+}
+
+.inv-course{
+    padding:5px;
+}
+
+.course-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    padding: 15px;
+}
+
+.course-submit{
+    background-color: rgb(189, 220, 200);
+    border: 3px solid gray;
+    padding: 15px;
+}
+
+.submit{
+    width: 100%;
+    border: none;
+    background-color: rgb(200, 195, 195);
+    border-radius: 8px;
+}
