@@ -1,0 +1,154 @@
+.full-screen{
+    height: 100vh;
+    display: flex;
+}
+
+.left{
+    width: 10%;
+    background-color: whitesmoke;
+}
+
+.right{
+    width: 90%;
+    background-color: gainsboro;
+}
+
+.right-top{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+}
+
+.info{
+    display: flex;
+    margin-top: 10px;
+}
+
+.num{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 132, 0);
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 20px;
+    color: black;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(187, 187, 239);
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.numm{
+    color: blue;
+    font-size:xx-large;
+}
+
+.txt{
+    font-size: small;
+}
+
+.card{
+    width: 25%;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.card3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.name-email{
+    display: flex;
+}
+
+.options{
+    display: flex;
+}
+
+.right-bottom-down{
+    display: flex;
+}
+
+.last2part{
+    width:35%;
+}
+
+.bar{
+    background-color: azure;
+    height: 50px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.big-bar{
+    width: 150px;
+    height: 5px;
+    background-color: aquamarine;
+}
+
+.color-bar{
+    width: 80%;
+    height: 5px;
+    background-color: rgb(120, 127, 125);
+}
+
+.box{
+    width: 200px;
+    background-color: beige;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.last{
+    background-color: azure;
+    height: 300px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+
+.form{
+    width: 55%;
+    background-color: azure;
+    margin:20px;
+    padding: 20px;
+}
+
+.right-bottom-down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-input{
+    margin-right: 100px;
+}
+
+.sunmit{
+    display: flex;
+    justify-content: space-around;
+}
+
+.top{
+    font-size: xx-large;
+}
+
+.marked{
+    padding: 10px;
+    background-color: rgb(196, 238, 238);
+}
+
+.left-top{
+    padding: 10px;
+}
