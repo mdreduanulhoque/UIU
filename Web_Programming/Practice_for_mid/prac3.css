@@ -1,0 +1,256 @@
+.full-screen{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 15%;
+    background-color: rgb(3, 3, 71);
+}
+
+.right{
+    height: 100%;
+    width: 85%;
+    background-color: rgba(233, 237, 240, 0.886);
+}
+
+.title-big{
+    font-size: xx-large;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.left-element{
+    font-size: large;
+    color: aliceblue;
+    padding: 7px;
+    padding-left: 30px;
+}
+
+.red-marked{
+    color: red;
+}
+
+.marked{
+    background-color: rgb(55, 198, 246);
+    border-left: 5px solid blue;
+}
+
+.left-bottom{
+    padding-top: 330px;
+}
+
+.big-text{
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+}
+
+.small-text{
+    font-size: small;
+    color:black;
+}
+
+.logo{
+    background-color: rgb(120, 211, 250);
+    height: 35px;
+    width: 35px;
+    font-size: x-large;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-name{
+    font-size: medium;
+}
+
+.user-info{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.grid-box-title{
+    font-size: small;
+    font-weight: bold;
+}
+
+.grid-box-num{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+.grid-alert{
+    font-size: x-small;
+}
+
+.box1{
+    padding: 20px;
+    border-top: 3px solid rgb(0, 213, 255);
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.current-status{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.box2{
+    padding: 20px;
+    border-top: 3px solid rgb(255, 47, 0);
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.box3{
+    padding: 20px;
+    border-top: 3px solid rgb(21, 255, 0);
+    background-color: white;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+
+.course-completion{
+    width: 35%;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+
+.text-last-row{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.name-prog{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.base{
+    width: 90%;
+    background-color: black;
+    height: 7px;
+    border-radius: 5px;
+}
+
+.completed{
+    width: 85%;
+    background-color: rgb(0, 193, 10);
+    height: 7px;
+    border-radius: 5px;
+}
+
+.progress-bar{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.completed-ml{
+    width: 60%;
+    background-color: rgb(0, 193, 10);
+    height: 7px;
+    border-radius: 5px;
+}
+
+.completed-web{
+    width: 45%;
+    background-color: rgb(0, 193, 10);
+    height: 7px;
+    border-radius: 5px;
+}
+
+.completed-db{
+    width: 92%;
+    background-color: rgb(0, 193, 10);
+    height: 7px;
+    border-radius: 5px;
+}
+
+.last-row{
+    display: flex;
+}
+
+.button{
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(221, 220, 220);
+}
+
+.tag{
+    font-size: small;
+    background-color: rgb(231, 250, 244);
+    color: rgb(3, 68, 46);
+    border-radius: 5px;
+    width:fit-content;
+}
+
+.topic{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.time{
+    font-size: small;
+}
+
+.last-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:10px;
+    background-color: white;
+}
+
+.lg{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.upcomming-deadlines{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
