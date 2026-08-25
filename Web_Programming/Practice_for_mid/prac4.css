@@ -1,0 +1,184 @@
+.full-screen{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+
+.left{
+    height: 100vh;
+    width: 15%;
+    background-color: aliceblue;
+}
+
+.right{
+    height: 100vh;
+    width: 85%;
+    background-color: rgb(203, 204, 205);
+}
+
+.logo{
+    background-color: blue;
+    height: 35px;
+    width: 35px;
+    font-size: x-large;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-text{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.head-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.left-item{
+    font-size: large;
+    padding-left: 15px;
+    padding: 10px;
+}
+
+.marked{
+    background-color: rgb(220, 255, 255);
+    border-left: 3px solid blue;
+}
+
+.logo2{
+    background-color: rgb(189, 189, 196);
+    height: 35px;
+    width: 35px;
+    font-size: x-large;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    gap: 20px;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+}
+
+.text{
+    font-size: small;
+    font-weight: bold;
+}
+
+.number{
+    font-size: large;
+    font-weight: bold;
+}
+
+.card{
+    padding: 15px;
+    border-radius: 7px;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.summery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.input {
+    width: 250px;  
+    height: 40px;  
+    border: 2px solid #3F46A4; 
+    border-radius: 5px;        
+    padding: 5px 10px;         
+    font-size: 16px;     
+}
+
+.form{
+    padding: 15px;
+    margin-left: 15px;
+}
+
+.clear-form{
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: rgb(216, 216, 230);
+    font-size: large;
+}
+
+.submit{
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: rgb(135, 135, 245);
+    font-size: large;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.form{
+    font-size: medium;
+    background-color: white;
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 15px;
+    width: 60%;
+}
+
+.base{
+    width: 90%;
+    background-color: black;
+    height: 7px;
+    border-radius: 5px;
+}
+
+.completed{
+    width: 82%;
+    background-color: rgb(0, 193, 10);
+    height: 7px;
+    border-radius: 5px;
+}
+
+.bottom-line{
+    display: flex;
+}
+
+.progress-bar{
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.last2{
+    width: 40%;
+}
