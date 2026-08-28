@@ -1,0 +1,190 @@
+.big-text{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.medium-text{
+    font-size: medium;
+    font-weight: normal;
+}
+
+.small-text{
+    font-size: small;
+    font-weight: normal;
+}
+
+.full-screen{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    height: 100vh;
+    width: 20%;
+    background-color: #0d3e86;
+}
+
+ .logo{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    font-size: x-large;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+ }
+
+.user{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.ty1{
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+    margin-left: 15px;
+}
+
+.text4{
+    margin-top: 15px;
+}
+
+.bottom-text{
+    margin-top: 300px;
+}
+
+.search-box{
+    width: 80%;
+    height: 30px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.right{
+    height: 100vh;
+    width: 80%;
+    background-color: #e9eff7;
+}
+
+
+.grid-cat-item{
+    padding: 20px;
+    color: white;
+    background-color: #6b63ff;
+    border-radius: 7px;
+}
+
+
+
+.categories{
+    height: max-content;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.grid-top{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.grid-middle{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.grid-files{
+    padding: 20px;
+    color: blue;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.files{
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.final-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.grid-last-item{
+    height: 40vh;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.base{
+    width: 90%;
+    background-color: black;
+    height: 7px;
+    border-radius: 5px;
+}
+
+.completed{
+    width: 75%;
+    background-color: rgb(0, 193, 10);
+    height: 7px;
+    border-radius: 5px;
+}
+
+.name-prog{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lm20{
+    margin-left: 20px;
+}
+
+.last-edit{
+    background-color: aquamarine;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.lm20{
+    margin-left: 20px;
+}
+.rm20{
+    margin-right: 20px;
+}
+.tm20{
+    margin-top: 20px;
+}
+.bm20{
+    margin-bottom: 20px;
+}
+.p20{
+    padding: 20px;
+}
+.br7{
+    border-radius: 7px;
+}
