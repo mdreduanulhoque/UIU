@@ -1,0 +1,31 @@
+<!--
+A shop:
+    2 input: item name
+             item count
+    -- Customer can buy an item
+    -- seller can add an item
+    -- seller can restock an item
+    -- Show all items
+    -- Seller will see the sales log
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="practice_1.php" method="post">
+        <input name="item-name" type="text" placeholder="Item Name">
+        <input name="item-count" type="number" placeholder="Item Count">
+
+        <button name="action" value="buy" type="submit">Buy</button>
+        <button name="action" value="add" type="submit">Add</button>
+        <button name="action" value="restock" type="submit">Restock</button>
+        <button name="action" value="show" type="submit">Show</button>
+        <button name="action" value="sales_log" type="submit">Sales Log</button>
+    </form>
+</body>
+</html>

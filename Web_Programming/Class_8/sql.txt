@@ -1,0 +1,11 @@
+CREATE TABLE items(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    stock INT DEFAULT 0
+    );
+
+CREATE TABLE order_log(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    quantity INT
+);
