@@ -39,4 +39,6 @@ document.getElementById("show-assesment").addEventListener("click", function () 
     if(total_study_sessions > 7 && total_study_hours < study_goal)
         document.getElementById("extra-feedback").innerHTML = `<b>Increase Your Study Time</b><br><br>`
 
+    document.getElementById("sub-name").value = "";
+    document.getElementById("study-hour").va;ue = "";
 });
