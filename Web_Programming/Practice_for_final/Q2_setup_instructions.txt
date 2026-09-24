@@ -1,0 +1,7 @@
+==> XAMPP control panel --> apache and mySQL server start --> go to mySQL admin --> phpmyadmin DB server will start --> XAMPP works
+
+==> c drive --> XAMPP --> htdocs --> new folder (project)
+
+==> open that folder in vs code
+
+==> TO check , go to link localhost/folder_name/  --> go .html file
