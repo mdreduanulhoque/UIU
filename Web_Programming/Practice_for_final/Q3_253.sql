@@ -13,7 +13,7 @@ CREATE TABLE book_loans(
     );
 
 -- Inset Data
-INSERT INTO book_info VALUES (101, "Abdul", "Data Structures", 0, 0.00, "Returned"),
+INSERT INTO book_loans VALUES (101, "Abdul", "Data Structures", 0, 0.00, "Returned"),
 (102, "Jabbar", "Operating Systems", 12, 24.00, "Overdue"), 
 (103, "Barkat", "Discrete Math", 5, 10.00, "Overdue"), 
 (104, "Rahim", "Linear Algebra", 2, 4.00, "Overdue"), 
